@@ -1,6 +1,4 @@
-# 面向对象编程
-#继承
-
+# 面向对象编程 - 继承
 # 父类
 class Mammal:
     def __init__(self,name,sex):

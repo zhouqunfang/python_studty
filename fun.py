@@ -1,4 +1,7 @@
-  # 定义函数
+# 定义函数
+from six import print_
+
+
 def sum_fun(a,b):
       sum = a+b
       return sum
@@ -11,3 +14,7 @@ print(sum_fun(1,2))
 import  statistics
 print(statistics.median([11,22,33]))
 
+#匿名函数
+lambda num1,num2: num1 + num2
+(lambda num1,num2: num1 + num2)(2,3)
+print((lambda num1,num2: num1 + num2)(2,3))
